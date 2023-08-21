@@ -1,0 +1,119 @@
+body{
+          display: flex;
+          justify-content: center;
+          min-height: 50vh;  
+          align-items: center;  
+          flex-direction: column;
+          background-image: linear-gradient(grey,rgb(61, 208, 228));   
+          background-attachment: fixed;  
+          background-repeat: no-repeat;
+          
+}
+div{
+          margin-top: 5px;
+          margin-bottom: 20px;
+}
+.textbut{
+          margin-bottom: -3px;
+}
+.back{
+          position: relative;
+          display: flex;
+          justify-content: center ;
+          align-items: center;
+          background: rgb(35, 185, 255);
+          padding: 5px;
+          border-radius:  10px;
+          border-style: solid;
+          box-shadow: 2px 5px 3px grey, inset 1px 1px 3px  rgb(0, 0, 0);
+          border-color: rgb(56, 87, 97); 
+          border-width: 2.5px;
+}
+.range{
+          height: 10px;
+          width: 300px;
+          appearance: none;
+          background: rgb(103, 216, 245);
+          border-radius: 10px;
+          outline: none;
+          box-shadow: inset 1px 1px 3px rgb(21, 21, 31);
+
+}
+.range::-webkit-slider-thumb{
+        appearance: none;
+        width: 30px;
+        height: 20px;
+        background: rgb(91, 124, 168);
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(48, 85, 85);
+        box-shadow: inset 1px 1px 1px, 2px 1px 3px black;
+        transition: 200ms;
+        cursor: pointer;
+}
+.range::-webkit-slider-thumb:hover{
+          scale: 110%;
+          background: rgb(33, 147, 167);
+
+}
+.range::-webkit-slider-thumb:active{
+          background: aqua;
+          border-color: azure;
+          cursor: grabbing;
+
+}
+.back:hover{
+          background: rgb(120, 239, 255);
+}
+.Butt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: inset 2px 2px 2px grey , 2px 4px 3px grey;
+        background-image: linear-gradient(45deg, rgb(91, 91, 255) ,rgb(255, 244, 244), rgb(122, 228, 247));
+
+}
+.tt{
+        width: 60px;
+        text-align: center;
+        height: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 15px;
+        color:rgb(0, 0, 0);
+        background: rgb(16, 13, 214);
+        border-radius:3px  ;
+        border-color: cornflowerblue;
+        box-shadow: inset 1px 1px 1px black, 2px 2px 3px grey;
+        border-style: solid;
+        transition: 150ms;
+        cursor: grab;
+        text-shadow: 1px 1px 2px rgb(70, 73, 209);
+
+}
+.tt:active{
+
+        scale: 90%;
+        background-color: rgb(252, 39, 39);
+        cursor: grabbing;
+
+}
+.tt:hover{
+        background-color: rgb(96, 248, 248);
+}
+.textbut{
+        color: rgb(152, 213, 241);
+        font-family: lilita system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-shadow: 2px 2px 4px rgb(70, 82, 133);
+
+
+}
+:root{
+ color: antiquewhite;
+
+}
